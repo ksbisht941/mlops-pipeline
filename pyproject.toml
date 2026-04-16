@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "dvclive>=3.49.0",
+    "matplotlib>=3.10.8",
+    "nltk>=3.9.4",
+    "scikit-learn>=1.8.0",
+    "wordcloud>=1.9.6",
+    "xgboost>=3.2.0",
+]
