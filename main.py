@@ -65,7 +65,7 @@ NEW_ROW_V3 = {
 def main():
     df = create_base_data()
     df = append_row(df, NEW_ROW_V2)
-    # df = append_row(df, NEW_ROW_V3)
+    df = append_row(df, NEW_ROW_V3)
 
     file_path = save_to_csv(df, directory="data", filename="sample_data.csv")
     print(f"CSV file saved to {file_path}")
