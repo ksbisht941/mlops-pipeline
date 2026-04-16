@@ -1,0 +1,4 @@
+product_id,product_name,category,transaction,quantity,unit_price,total_amount
+P001,Laptop,Electronics,sell,2,999.99,1999.98
+P002,Headphones,Electronics,purchase,5,49.99,249.95
+P003,Mouse,Accessories,sell,10,19.99,199.9
