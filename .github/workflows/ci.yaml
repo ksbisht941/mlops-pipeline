@@ -3,10 +3,10 @@ name: CI Workflow
 on:
   push:
     branches:
-      - main
+      - lecture-04
   pull_request:
     branches:
-      - main
+      - lecture-04
 
 jobs:
   test:
