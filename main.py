@@ -1,5 +1,5 @@
 def main():
-    print("Hello from mlops-pipeline!")
+    print("Hello from vehical-insurance!")
 
 
 if __name__ == "__main__":
