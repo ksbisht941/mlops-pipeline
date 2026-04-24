@@ -1,0 +1,15 @@
+data:
+  dir: "./content/dataset"
+  img_size: [224, 224]
+  batch_size: 32
+
+training:
+  epochs: 20
+  lr: 0.0001
+
+model:
+  backbone: "MobileNetV2"
+  trainable: false
+
+mlflow:
+  experiment_name: "cat-dog-classifier"
