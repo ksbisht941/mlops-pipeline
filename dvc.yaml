@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: uv run python main.py
+    deps:
+      - src/
+      - configs/config.yaml
+      - content/dataset
+    outs:
+      - models/model.keras
