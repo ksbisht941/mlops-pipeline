@@ -22,4 +22,5 @@ def run_training_pipeline(config):
         config["training"]["epochs"]
     )
 
+
     return model

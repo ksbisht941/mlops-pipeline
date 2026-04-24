@@ -1,5 +1,6 @@
 import mlflow
-import mlflow.tensorflow
+import tensorflow as tf
+from tensorflow import keras
 
 def train(model, train_ds, val_ds, epochs):
     with mlflow.start_run():

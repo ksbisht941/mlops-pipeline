@@ -7,4 +7,7 @@ with open("configs/config.yaml") as f:
 
 setup_mlflow(config["mlflow"]["experiment_name"])
 
-run_training_pipeline(config)
+model = run_training_pipeline(config)
+
+model.save()
+
