@@ -11,7 +11,7 @@ def run_training_pipeline(config):
 
     model = build_model(
         config["data"]["img_size"],
-        config["training"]["lr"],
+        config["training"]["learning_rate"],
         config["model"]["trainable"]
     )
 
@@ -19,7 +19,8 @@ def run_training_pipeline(config):
         model,
         train_ds,
         val_ds,
-        config["training"]["epochs"]
+        config["training"]["epochs"],
+        config
     )
 
 

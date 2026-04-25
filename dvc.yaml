@@ -3,7 +3,11 @@ stages:
     cmd: uv run python main.py
     deps:
       - src/
-      - configs/config.yaml
       - content/dataset
+      - params.yaml
+    params:
+      - data
+      - model
+      - training
     outs:
       - models/model.keras

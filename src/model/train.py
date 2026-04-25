@@ -39,7 +39,7 @@ def train(model, train_ds, val_ds, epochs, config):
             "epochs": epochs,
             "batch_size": config["data"]["batch_size"],
             "img_size": config["data"]["img_size"],
-            "learning_rate": config["training"]["lr"],
+            "learning_rate": config["training"]["learning_rate"],
             "backbone": config["model"]["backbone"],
             "trainable": config["model"]["trainable"],
         })
